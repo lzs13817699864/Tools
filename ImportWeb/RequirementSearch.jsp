@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>ÎŞ±êÌâÎÄµµ</title>
+<title>éœ€æ±‚çŠ¶æ€æŸ¥è¯¢</title>
 <style type="text/css">
 <!--
 .STYLE10 {color: #FFFFFF; font-weight: bold; font-size: large; }
@@ -14,7 +14,7 @@
 </head>
 
 <body>
-<!-- ¼ÓÔØOracleÊı¾İ¿â -->
+<!-- åŠ è½½Oracleæ•°æ®åº“ -->
 <%
       Connection ct=null;
       PreparedStatement sm=null;
@@ -34,12 +34,12 @@
     <td height="80" colspan="6">&nbsp;</td>
   </tr>
   <tr bgcolor="#0099FF">
-    <td width="198" height="41" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">ÍøÕ¾Ê×Ò³</span></div></td>
-    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">¹«Ë¾½éÉÜ</span></div></td>
-    <td width="193" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">Ê¹ÓÃÖ¸ÄÏ</span></div></td>
-    <td width="194" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">ÊÖ»úÆ½Ì¨</span></div></td>
-    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">¹¤¾ß½éÉÜ</span></div></td>
-    <td width="259" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">ÁªÏµÎÒÃÇ</span></div></td>
+    <td width="198" height="41" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">ç½‘ç«™é¦–é¡µ</span></div></td>
+    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">å…¬å¸ä»‹ç»</span></div></td>
+    <td width="193" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">ä½¿ç”¨æŒ‡å—</span></div></td>
+    <td width="194" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">æ‰‹æœºå¹³å°</span></div></td>
+    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">å·¥å…·ä»‹ç»</span></div></td>
+    <td width="259" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">è”ç³»æˆ‘ä»¬</span></div></td>
   </tr>
 </table>
 
@@ -52,7 +52,7 @@
    PreparedStatement sm=null;
    ResultSet rs=null;
    
-   //½ÓÊÕÓÃ»§Ï£ÍûÏÔÊ¾µÄÒ³Êı
+   //æ¥æ”¶ç”¨æˆ·å¸Œæœ›æ˜¾ç¤ºçš„é¡µæ•°
 
    String s_pageNow=request.getParameter("pageNow");
    if(s_pageNow!=null){
@@ -128,7 +128,7 @@
      <%
     if(pageNow!=1)
        {
-         out.print("<a href=welcome.jsp?pageNow="+(pageNow-1)+">ÉÏÒ»Ò³</a>");
+         out.print("<a href=welcome.jsp?pageNow="+(pageNow-1)+">ä¸Šä¸€é¡µ</a>");
         }        
     
     for(int i=pageNow;i<=(pageNow+pageSize-1);i++)
@@ -138,12 +138,12 @@
 
     if(pageNow!=rowCount)
        {
-         out.print("<a href=welcome.jsp?pageNow="+(pageNow+1)+">ÏÂÒ»Ò³</a>");
+         out.print("<a href=welcome.jsp?pageNow="+(pageNow+1)+">ä¸‹ä¸€é¡µ</a>");
         }
   %>
   
      <br>  
-   Ìø×ªÒ³Êı£º
+   è·³è½¬é¡µæ•°ï¼š
    <input type="text" name="page"> 
    <a href=welcome.jsp>go</a>
    <br>
