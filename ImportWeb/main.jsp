@@ -3,7 +3,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
-<title>无标题文档</title>
+<title>MainUI</title>
 <style type="text/css">
 <!--
 .STYLE1 {
@@ -30,12 +30,12 @@
     <td height="80" colspan="6">&nbsp;</td>
   </tr>
   <tr bgcolor="#0099FF">
-    <td width="198" height="41" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">网站首页</span></div></td>
-    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">公司介绍</span></div></td>
-    <td width="193" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">使用指南</span></div></td>
-    <td width="194" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">手机平台</span></div></td>
-    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">工具介绍</span></div></td>
-    <td width="259" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">联系我们</span></div></td>
+    <td width="198" height="41" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">缃戠珯棣栭〉</span></div></td>
+    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">鍏徃浠嬬粛</span></div></td>
+    <td width="193" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">浣跨敤鎸囧崡</span></div></td>
+    <td width="194" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">鎵嬫満骞冲彴</span></div></td>
+    <td width="206" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">宸ュ叿浠嬬粛</span></div></td>
+    <td width="259" bordercolor="#00FF00"><div align="center" class="STYLE10"><span class="STYLE5">鑱旂郴鎴戜滑</span></div></td>
   </tr>
 </table>
 <table width="1296" border="1">
@@ -43,7 +43,7 @@
     <td height="92" colspan="4">&nbsp;</td>
   </tr>
   <tr>
-    <td width="104" height="64"><span class="STYLE4">平台项目：</span></td>
+    <td width="104" height="64"><span class="STYLE4">骞冲彴椤圭洰锛�</span></td>
     <td width="218">&nbsp;</td>
     <td width="281" rowspan="6">&nbsp;</td>
     <td width="665" rowspan="6">&nbsp;</td>
@@ -66,7 +66,7 @@
 </table>
 <table width="1297" height="87" border="1">
   <tr>
-    <td width="1287" bordercolor="#FF0000" bgcolor="#00FF00"> <div align="center" class="STYLE1">底部Logo</div></td>
+    <td width="1287" bordercolor="#FF0000" bgcolor="#00FF00"> <div align="center" class="STYLE1">搴曢儴Logo</div></td>
   </tr>
 </table>
 </body>
